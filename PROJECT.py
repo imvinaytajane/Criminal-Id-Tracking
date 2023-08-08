@@ -57,7 +57,7 @@ def get_geo_coordinates(location_name):
 
 location_name = "Nagpur, India"
 
-cap = cv2.VideoCapture('https://192.168.1.7:8080/video')
+cap = cv2.VideoCapture(0)
 cap.set(cv2.CAP_PROP_BUFFERSIZE, 10)
 # 'https://192.168.29.45:8080/video'
 # 22,23
